@@ -1,10 +1,8 @@
-# ☀️ Solar Energy Production Prediction using Machine Learning
+Solar Energy Production Prediction using Machine Learning
 
 This project leverages machine learning techniques to predict solar power generation in Berkeley, California. By analyzing how environmental variables such as temperature, humidity, sky cover, and solar noon proximity affect energy output, this notebook builds a robust predictive model using a Random Forest Regressor and hyperparameter optimization through GridSearchCV.
 
----
-
-## 🧠 Project Motivation
+Project Motivation
 
 Solar energy is one of the most promising sources of renewable energy. However, its efficiency and consistency are highly dependent on environmental conditions. Accurately forecasting energy production can:
 
@@ -13,21 +11,8 @@ Solar energy is one of the most promising sources of renewable energy. However, 
 * Enhance decision-making in energy grid management.
 * Contribute to the transition toward sustainable energy ecosystems.
 
----
 
-## 📁 Repository Structure
-
-```
-.
-├── Solar_Panel_Power_Generation.ipynb  # Full code: EDA, modeling, evaluation
-├── Programming CA2 REPORT_20047046_Ertugrul_Asliyuce.pdf  # Detailed academic report
-├── requirements.txt                    # Python dependencies
-└── README.md                           # Project overview and instructions
-```
-
----
-
-## 📊 Dataset Overview
+Dataset Overview
 
 The dataset is based on a solar energy system located in Berkeley, California, with:
 
@@ -40,9 +25,8 @@ The dataset is based on a solar energy system located in Berkeley, California, w
 
 The data shows seasonal, temporal, and environmental variation in energy output.
 
----
 
-## 🔧 Feature Engineering
+Feature Engineering
 
 The following preprocessing and engineering steps were applied:
 
@@ -57,8 +41,7 @@ The following preprocessing and engineering steps were applied:
 * **Standardization**: Applied to all numerical features.
 
 ---
-
-## 📈 Model Building
+ 📈 Model Building
 
 Model: `RandomForestRegressor` from `scikit-learn`
 Why Random Forest?
@@ -133,26 +116,10 @@ jupyter notebook Solar_Panel_Power_Generation.ipynb
 
 ---
 
-## 🚀 Future Improvements
 
-* Integrate real-time weather data using public APIs
-* Experiment with deep learning models (e.g., LSTM for time series)
-* Deploy the model as a web service with Flask or FastAPI
-* Use SHAP or LIME for model interpretability
-
----
-
-## 📚 References
 
 * Medium Article on [Random Forest Regression](https://medium.com/@byanalytixlabs/random-forest-regression-how-it-helps-in-predictive-analytics-01c31897c1d4)
 * Kaggle Dataset: [Solar Power Generation](https://www.kaggle.com/datasets/vipulgote4/solar-power-generation/data)
 * Fieguth, P. (2022). *An Introduction to Pattern Recognition and Machine Learning*.
 * Camastra & Vinciarelli (2008). *Machine Learning for Audio, Image and Video Analysis*.
-
----
-
-## 📜 License
-
-This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License.  
-See the [LICENSE](LICENSE) file for full legal text.
 
